@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Novels by Bibliophile</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<style>
+.navbar-nav{
+margin-left: 400px;}
+th {
+  text-align:center;
+}
+</style>
+</head>
+<body>
+<script>
+function bigImg(x) {
+  x.style.height = "290px";
+  x.style.width = "300px";
+}
+
+function normalImg(x) {
+  x.style.height = "250px";
+  x.style.width = "280px";
+}</script>
+
+<script>
+function submit() {
+  var g;
+  var search;
+    if (search == children) {
+    g=<a href="child.html"></a>;
+  } 
+    else if (search == Magazine) {
+    g=<a href="mag.html"></a>;
+  }
+    else if (search == Biography) {
+    g=<a href="bio.html"></a>;
+  } 
+    else if (search == Novels) {
+    g=<a href="nov.html"></a>;
+  } 
+    else if (search == Cookbooks) {
+    g=<a href="cook.html"></a>;
+  } 
+    else if (search==mystery || search==Suspense) {
+    g=<a href="mys.html"></a>;
+  } 
+    else {
+    greeting = "Not found";
+  }
+  document.getElementById("demo").innerHTML = greeting;
+}
+</script>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="download5.jpg" width="1540" height="450">
+      <div class="carousel-caption">
+        <h2>a good book,coffee.</h2>
+        <p>Am a perfect content of good books with a cup of coffee!!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="download4.jpg" width="1540" height="450">
+      <div class="carousel-caption">
+        <h2>the sea and the book</h2>
+        <p>A book must be the axe for the frozen sea within us!!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="download2.png" width="1540" height="450">
+      <div class="carousel-caption">
+        <h2>frangrance and the book</h2>
+        <p>a book is like a flower, the more it grows,the more you like it!!</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</div>
+</div>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+  <img class="navbar-brand" src="logo1.jpg" style="width:50px;">
+  <ul class="navbar-nav">
+   <li class="nav-item ">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="about.html">About</a>
+    </li>
+    <li class="nav-item ">
+      <a class="nav-link" href="child.html">Children</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="mag.html">Magazines</a>
+    </li><li class="nav-item ">
+      <a class="nav-link active" href="novel.html">Novels</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="bio.html">Biographies</a>
+    </li>
+<li class="nav-item ">
+      <a class="nav-link" href="cook.html">Cookbooks</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="mys.html">Mystery&</br>Suspense</a>
+    </li>
+ <form class="form-inline" action="submit()">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn btn-success" onclick="submit()">Search</button>
+  </form>
+      &nbsp;&nbsp;&nbsp;
+<select id="country" name="countryy" form="countryform">
+<option value="India">India</option>
+  <option value="Australia">Australia</option>
+  <option value="Belgium">Belgium</option>
+  <option value="Canada">Canada</option>
+<option value="Denmark">Denmark</option>
+<option value="Egypt">Egypt</option>
+<option value="Germany">Germany</option>
+<option value="Japan">Japan</option>
+<option value="Maldives">Maldives</option>
+<option value="Mexico">Mexico</option>
+</select>
+  </ul>
+</nav>
+<div class="container" style="margin-top:50px">
+  <div class="row">
+    <div class="col-sm-2" style="margin-left:-150px;margin-top:20px">
+      <h2>Bibliophile</h2>
+      <img src="logo1.jpg" style="width:150px;height:100px">
+<h6><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;love for books</i></h6></br></br>
+       <h4>Various Books</h4>
+     <p class="text-muted">Children Books</p>
+  <p class="text-primary">Magazines</p>
+  <p class="text-success">Novels</p>
+  <p class="text-info">Biographies</p>
+  <p class="text-warning">Cookbooks</p>
+  <p class="text-muted">Mystery & </br> Suspense</p>
+  </div>
+   </div>
+
+
+
+    <div class="col-sm-7" style="margin-left:20px; margin-top:-475px">
+      <table style="width:200%">
+<tr>
+<td>
+<a href="mail.html">
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="boy.jpg" align="right" border="2" width="280" height="250" ></a></td>
+<td>
+<a href="mail.html">
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="pun.jpg" align="right" border="2" width="280" height="250" ></a></td>
+<td>
+<a href="mail.html">
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="life.jpg" align="right" border="2" width="280" height="250"></a></td>
+<td>
+<a href="mail.html">
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="jim.jpg" align="right" border="2" width="280" height="250" ></a></td>
+</tr>
+<tr>
+<th>The Boy in the photo</br><i>Nicole Trope</i>(Author)</br>&#8377;625</th>
+<th>A very Punchable face</br><i>Colin Jost</i>(Author)</br>&#8377;589</th>
+<th>Life Stories and Lessons</br><i>John Shea</i>(Author)</br>&#8377;858</th>
+<th>Memories and Misinformation</br><i>Jim Carry</i>(Author)</br>&#8377;788</th></tr>
+
+<tr>
+<td>
+<a href="mail.html">
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="dau.jpg" align="right" width="280" border="2" height="250"></a></td>
+
+<td>
+<a href="mail.html">
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="som.jpg" align="right" border="2"  width="280" height="250"></a></td>
+
+<td>
+<a href="mail.html">
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="devo.jpg" align="right" border="2"  width="280" height="250"></a></td>
+
+<td>
+<a href="mail.html">
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="mis.jpg" align="right" border="2"  width="280" height="250"></a></td>
+</tr>
+<tr>
+<th>The Other Daughter</br><i>Shalini Boland</i>(Author)</br>&#8377;885</th>
+<th>Someone Else's Secret</br><i>Julia Spiro</i>(Author)</br>&#8377;560</th>
+<th>Devoted</br><i>Dean Kontz</i>(Author)</br>&#8377;490</th>
+<th>3 Mistakes of my Life</br><i>Chetan Bhagat</i>(Author)</br>&#8377;389</th></tr>
+
+<tr>
+<td>
+<a href="mail.html">
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="big.jpg" align="right" border="2"  width="280" height="250"></a></td>
+
+<td>
+<a href="mail.html">
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="steph.jpg" align="right" border="2"  width="280" height="250"></a></td>
+
+<td>
+<a href="mail.html">
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="god.jpg" align="right" border="2"  width="280" height="250"></a></td>
+
+<td>
+<a href="mail.html">
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="reb.jpg" align="right" border="2"  width="280" height="250"></a></td>
+</tr>
+<tr>
+<th>Big Summer: A novel</br><i>Jennifer Weinner</i>(Author)</br>&#8377;580</th>
+<th>If it bleeds</br><i>Stephen King</i>(Author)</br>&#8377;782</th>
+<th>Godan</br><i>Munshi Premchand</i>(Author)</br>&#8377;352</th>
+<th>Rebel Chef</br><i>Emma Brockes</i>(Author)</br>&#8377;389</th></tr>
+
+<tr>
+<td>
+<a href="mail.html">
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="one.jpg" align="right" border="2"  width="280" height="250"></a></td>
+
+<td>
+<a href="mail.html">
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="mer.jpg" align="right" border="2"  width="280" height="250"></a></td>
+
+<td>
+<a href="mail.html">
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="par.jpg" align="right" border="2"  width="280" height="250"></a></td>
+
+<td>
+<a href="mail.html">
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="as.jpg" align="right" border="2"  width="280" height="250"></a></td>
+</tr>
+<tr>
+<th>One Indian Girl</br><i>Chetan Bhagat</i>(Author)</br>&#8377;784</th>
+<th>When we Believed in Mermaids</br><i>Barbara O'Neal</i>(Author)</br>&#8377;445</th>
+<th>Parasite</br><i>Bong Joon Ho</i>(Author)</br>&#8377;753</th>
+<th>As I Lay Dying</br><i>William Faulkner</i>(Author)</br>&#8377;995</th></tr>
+</table><br/>
+<tr>
+
+</div>
+
+</body>
+</html>
